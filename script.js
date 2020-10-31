@@ -13,14 +13,14 @@ var generateBtn = document.querySelector("#generate");
 // Add event listener to generate button
 generateBtn.addEventListener("click", generatePassword);
 
-// generated pwd
+//function for generating pwd
 function generatePassword() {
   var pwdInfor = [];
 
   var mixedPwd = [];
 
 
-  //List of array to be selected from by user
+  //List of character in an array to be selected from by user
   var numbers = ["0","1","2","3","4","5","6","7","8","9"];
   var lowerCase = ["a","b","c","d","e","f"];
   var upperCase = ["A","B","C","D","E","F"];
@@ -32,7 +32,7 @@ function generatePassword() {
   var pwdLength = 
     prompt("How many characters would you like") 
 
-  var numLength = parseInt(pwdLength)
+  var numLength = parseInt(pwdLength);
   
   if(pwdLength < 8) {
     alert("Password must be at least 8 characters");
@@ -48,7 +48,7 @@ function generatePassword() {
     return;
   }
 
-   // Confirmation list that confirmed what user is using 
+   // Confirmation list that confirmed what user is inputting 
    var hasNumbers = confirm("Click okay if you want numbers");
    var hasLowerCase = confirm("Click okay if you want lowercase");
    var hasUpperCase = confirm("Click okay if you want Uppercase");
@@ -90,7 +90,7 @@ function generatePassword() {
 
     }
     
-
+    // Output of generated pwd from user input
     var passwordText = document.querySelector("#password");
 
     passwordText.value = mixedPwd;
