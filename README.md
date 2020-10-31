@@ -4,7 +4,7 @@ This application is created to assist users with generating a random password ba
 
 ## Screen shot
 
-![Front Screen](./assets/pwd_app.PNG)
+![Front Screen](./assets/pwd_app.png)
 
 ## Link to application
 
