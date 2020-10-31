@@ -8,7 +8,7 @@ This application is created to assist users with generating a random password ba
 
 ## Link to application
 
-[Click here]()
+[Click here](https://afam-26.github.io/Password-generator/)
 
 ## Credit
 
